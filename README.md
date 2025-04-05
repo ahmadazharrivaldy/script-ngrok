@@ -5,6 +5,7 @@ Change with your token
 ngrok config add-authtoken 2KCGoWYIA8FLKGpeVlXnj2e0fT9_6wWtEHMxiLCo8eCUS8Y9o
 ```
 Run script
+> Support amd64 only
 ```bash
 cd script-ngrok
 chmod +x install-ngrok.sh
