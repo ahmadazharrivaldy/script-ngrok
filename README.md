@@ -1,4 +1,5 @@
 # Usage
+This script is to shorten the installation process and to expose my local server to be accessible from outside using ssh.
 
 Change with your token
 ```
