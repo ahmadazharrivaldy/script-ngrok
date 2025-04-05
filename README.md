@@ -9,10 +9,5 @@ Run script
 cd script-ngrok
 chmod +x install-ngrok.sh
 bash install-ngrok.sh
-````
-Move ngrok.service to /etc/systemd/system/ and start it.
-```bash
-cp ngrok.service /etc/systemd/system/ngrok.service
-systemctl enable --now ngrok.service
 ```
 Limitation free user is random port, when your server restart, ngrok created new port. But don't worry, you just check new port in dashboard https://dashboard.ngrok.com/agents.
