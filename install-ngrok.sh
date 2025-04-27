@@ -7,7 +7,7 @@ echo "Extracting and installing ngrok..."
 sudo tar -xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
 
 echo "Configuring ngrok with authtoken..."
-ngrok config add-authtoken 2KCGoWYIA8FLKGpeVlXnj2e0fT9_6wWtEHMxiLCo8eCUS8Y9o
+ngrok config add-authtoken <YOUR-TOKEN>
 
 echo "Starting ngrok..."
 cp ngrok.service /etc/systemd/system/ngrok.service
